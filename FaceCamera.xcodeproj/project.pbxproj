@@ -8,14 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		1155F61E25C3AD1D00270E9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F61D25C3AD1D00270E9E /* AppDelegate.m */; };
-		1155F62125C3AD1D00270E9E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F62025C3AD1D00270E9E /* SceneDelegate.m */; };
 		1155F62425C3AD1D00270E9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F62325C3AD1D00270E9E /* ViewController.m */; };
-		1155F62725C3AD1D00270E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1155F62525C3AD1D00270E9E /* Main.storyboard */; };
 		1155F62925C3AD1E00270E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1155F62825C3AD1E00270E9E /* Assets.xcassets */; };
 		1155F62C25C3AD1E00270E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1155F62A25C3AD1E00270E9E /* LaunchScreen.storyboard */; };
 		1155F62F25C3AD1E00270E9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F62E25C3AD1E00270E9E /* main.m */; };
 		1155F63925C3AD1E00270E9E /* FaceCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F63825C3AD1E00270E9E /* FaceCameraTests.m */; };
 		1155F64425C3AD1E00270E9E /* FaceCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F64325C3AD1E00270E9E /* FaceCameraUITests.m */; };
+		1155F65625C3BCD400270E9E /* ARExperienceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F65525C3BCD400270E9E /* ARExperienceController.m */; };
+		1155F65A25C3D6D100270E9E /* MetalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F65925C3D6D100270E9E /* MetalViewController.m */; };
+		1155F65C25C3E63200270E9E /* Metal-Shading-Language-Specification.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1155F65B25C3E63200270E9E /* Metal-Shading-Language-Specification.pdf */; };
+		1155F65F25C3E65900270E9E /* Essentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F65E25C3E65900270E9E /* Essentials.m */; };
+		1155F66225C3E67300270E9E /* GPUs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F66125C3E67300270E9E /* GPUs.m */; };
+		1155F66525C3E69600270E9E /* CommandSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F66425C3E69600270E9E /* CommandSetup.m */; };
+		1155F66825C3E6AF00270E9E /* ParallelComputation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F66725C3E6AF00270E9E /* ParallelComputation.m */; };
+		1155F66B25C3E6BD00270E9E /* RayTracing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F66A25C3E6BD00270E9E /* RayTracing.m */; };
+		1155F66E25C3E6D500270E9E /* Rendering.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F66D25C3E6D500270E9E /* Rendering.m */; };
+		1155F67125C3E6F500270E9E /* Presentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F67025C3E6F500270E9E /* Presentation.m */; };
+		1155F67425C3E70300270E9E /* Shaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F67325C3E70300270E9E /* Shaders.m */; };
+		1155F67725C3E71600270E9E /* Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F67625C3E71600270E9E /* Resources.m */; };
+		1155F67A25C3E74D00270E9E /* ObjectSizingAndPositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F67925C3E74D00270E9E /* ObjectSizingAndPositioning.m */; };
+		1155F67D25C3E79200270E9E /* PackedVectorsAndMatrices.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F67C25C3E79200270E9E /* PackedVectorsAndMatrices.m */; };
+		1155F68025C3E7A300270E9E /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F67F25C3E7A300270E9E /* Time.m */; };
+		1155F68325C3E7B000270E9E /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F68225C3E7B000270E9E /* Tools.m */; };
+		1155F68525C3E9AE00270E9E /* File.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1155F68425C3E9AE00270E9E /* File.metal */; };
+		1155F68725C4040E00270E9E /* 9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1155F68625C4040E00270E9E /* 9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +55,8 @@
 		1155F61925C3AD1D00270E9E /* FaceCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1155F61C25C3AD1D00270E9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1155F61D25C3AD1D00270E9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1155F61F25C3AD1D00270E9E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		1155F62025C3AD1D00270E9E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		1155F62225C3AD1D00270E9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1155F62325C3AD1D00270E9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1155F62625C3AD1D00270E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1155F62825C3AD1E00270E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1155F62B25C3AD1E00270E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1155F62D25C3AD1E00270E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +67,41 @@
 		1155F63F25C3AD1E00270E9E /* FaceCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1155F64325C3AD1E00270E9E /* FaceCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceCameraUITests.m; sourceTree = "<group>"; };
 		1155F64525C3AD1E00270E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1155F65125C3AEE400270E9E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1155F65225C3AF1D00270E9E /* BasicMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicMacro.h; sourceTree = "<group>"; };
+		1155F65425C3BCD400270E9E /* ARExperienceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARExperienceController.h; sourceTree = "<group>"; };
+		1155F65525C3BCD400270E9E /* ARExperienceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARExperienceController.m; sourceTree = "<group>"; };
+		1155F65825C3D6D100270E9E /* MetalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalViewController.h; sourceTree = "<group>"; };
+		1155F65925C3D6D100270E9E /* MetalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalViewController.m; sourceTree = "<group>"; };
+		1155F65B25C3E63200270E9E /* Metal-Shading-Language-Specification.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Metal-Shading-Language-Specification.pdf"; sourceTree = "<group>"; };
+		1155F65D25C3E65900270E9E /* Essentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Essentials.h; sourceTree = "<group>"; };
+		1155F65E25C3E65900270E9E /* Essentials.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Essentials.m; sourceTree = "<group>"; };
+		1155F66025C3E67300270E9E /* GPUs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUs.h; sourceTree = "<group>"; };
+		1155F66125C3E67300270E9E /* GPUs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUs.m; sourceTree = "<group>"; };
+		1155F66325C3E69600270E9E /* CommandSetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandSetup.h; sourceTree = "<group>"; };
+		1155F66425C3E69600270E9E /* CommandSetup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandSetup.m; sourceTree = "<group>"; };
+		1155F66625C3E6AF00270E9E /* ParallelComputation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParallelComputation.h; sourceTree = "<group>"; };
+		1155F66725C3E6AF00270E9E /* ParallelComputation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallelComputation.m; sourceTree = "<group>"; };
+		1155F66925C3E6BD00270E9E /* RayTracing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RayTracing.h; sourceTree = "<group>"; };
+		1155F66A25C3E6BD00270E9E /* RayTracing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RayTracing.m; sourceTree = "<group>"; };
+		1155F66C25C3E6D500270E9E /* Rendering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rendering.h; sourceTree = "<group>"; };
+		1155F66D25C3E6D500270E9E /* Rendering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rendering.m; sourceTree = "<group>"; };
+		1155F66F25C3E6F500270E9E /* Presentation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presentation.h; sourceTree = "<group>"; };
+		1155F67025C3E6F500270E9E /* Presentation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presentation.m; sourceTree = "<group>"; };
+		1155F67225C3E70300270E9E /* Shaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shaders.h; sourceTree = "<group>"; };
+		1155F67325C3E70300270E9E /* Shaders.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shaders.m; sourceTree = "<group>"; };
+		1155F67525C3E71600270E9E /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
+		1155F67625C3E71600270E9E /* Resources.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Resources.m; sourceTree = "<group>"; };
+		1155F67825C3E74D00270E9E /* ObjectSizingAndPositioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectSizingAndPositioning.h; sourceTree = "<group>"; };
+		1155F67925C3E74D00270E9E /* ObjectSizingAndPositioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectSizingAndPositioning.m; sourceTree = "<group>"; };
+		1155F67B25C3E79200270E9E /* PackedVectorsAndMatrices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackedVectorsAndMatrices.h; sourceTree = "<group>"; };
+		1155F67C25C3E79200270E9E /* PackedVectorsAndMatrices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackedVectorsAndMatrices.m; sourceTree = "<group>"; };
+		1155F67E25C3E7A300270E9E /* Time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		1155F67F25C3E7A300270E9E /* Time.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Time.m; sourceTree = "<group>"; };
+		1155F68125C3E7B000270E9E /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		1155F68225C3E7B000270E9E /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		1155F68425C3E9AE00270E9E /* File.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = File.metal; sourceTree = "<group>"; };
+		1155F68625C4040E00270E9E /* 9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +152,19 @@
 		1155F61B25C3AD1D00270E9E /* FaceCamera */ = {
 			isa = PBXGroup;
 			children = (
+				1155F65725C3D6BD00270E9E /* Metal */,
+				1155F65325C3BAAE00270E9E /* ARExperience */,
 				1155F61C25C3AD1D00270E9E /* AppDelegate.h */,
 				1155F61D25C3AD1D00270E9E /* AppDelegate.m */,
-				1155F61F25C3AD1D00270E9E /* SceneDelegate.h */,
-				1155F62025C3AD1D00270E9E /* SceneDelegate.m */,
 				1155F62225C3AD1D00270E9E /* ViewController.h */,
 				1155F62325C3AD1D00270E9E /* ViewController.m */,
-				1155F62525C3AD1D00270E9E /* Main.storyboard */,
 				1155F62825C3AD1E00270E9E /* Assets.xcassets */,
 				1155F62A25C3AD1E00270E9E /* LaunchScreen.storyboard */,
 				1155F62D25C3AD1E00270E9E /* Info.plist */,
 				1155F62E25C3AD1E00270E9E /* main.m */,
+				1155F65125C3AEE400270E9E /* PrefixHeader.pch */,
+				1155F65225C3AF1D00270E9E /* BasicMacro.h */,
+				1155F65B25C3E63200270E9E /* Metal-Shading-Language-Specification.pdf */,
 			);
 			path = FaceCamera;
 			sourceTree = "<group>";
@@ -135,6 +185,52 @@
 				1155F64525C3AD1E00270E9E /* Info.plist */,
 			);
 			path = FaceCameraUITests;
+			sourceTree = "<group>";
+		};
+		1155F65325C3BAAE00270E9E /* ARExperience */ = {
+			isa = PBXGroup;
+			children = (
+				1155F65425C3BCD400270E9E /* ARExperienceController.h */,
+				1155F65525C3BCD400270E9E /* ARExperienceController.m */,
+			);
+			path = ARExperience;
+			sourceTree = "<group>";
+		};
+		1155F65725C3D6BD00270E9E /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				1155F65825C3D6D100270E9E /* MetalViewController.h */,
+				1155F65925C3D6D100270E9E /* MetalViewController.m */,
+				1155F65D25C3E65900270E9E /* Essentials.h */,
+				1155F65E25C3E65900270E9E /* Essentials.m */,
+				1155F68425C3E9AE00270E9E /* File.metal */,
+				1155F66025C3E67300270E9E /* GPUs.h */,
+				1155F66125C3E67300270E9E /* GPUs.m */,
+				1155F66325C3E69600270E9E /* CommandSetup.h */,
+				1155F66425C3E69600270E9E /* CommandSetup.m */,
+				1155F66625C3E6AF00270E9E /* ParallelComputation.h */,
+				1155F66725C3E6AF00270E9E /* ParallelComputation.m */,
+				1155F66925C3E6BD00270E9E /* RayTracing.h */,
+				1155F66A25C3E6BD00270E9E /* RayTracing.m */,
+				1155F66C25C3E6D500270E9E /* Rendering.h */,
+				1155F66D25C3E6D500270E9E /* Rendering.m */,
+				1155F66F25C3E6F500270E9E /* Presentation.h */,
+				1155F67025C3E6F500270E9E /* Presentation.m */,
+				1155F67225C3E70300270E9E /* Shaders.h */,
+				1155F67325C3E70300270E9E /* Shaders.m */,
+				1155F67525C3E71600270E9E /* Resources.h */,
+				1155F67625C3E71600270E9E /* Resources.m */,
+				1155F67825C3E74D00270E9E /* ObjectSizingAndPositioning.h */,
+				1155F67925C3E74D00270E9E /* ObjectSizingAndPositioning.m */,
+				1155F67B25C3E79200270E9E /* PackedVectorsAndMatrices.h */,
+				1155F67C25C3E79200270E9E /* PackedVectorsAndMatrices.m */,
+				1155F67E25C3E7A300270E9E /* Time.h */,
+				1155F67F25C3E7A300270E9E /* Time.m */,
+				1155F68125C3E7B000270E9E /* Tools.h */,
+				1155F68225C3E7B000270E9E /* Tools.m */,
+				1155F68625C4040E00270E9E /* 9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png */,
+			);
+			path = Metal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +336,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1155F68725C4040E00270E9E /* 9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png in Resources */,
 				1155F62C25C3AD1E00270E9E /* LaunchScreen.storyboard in Resources */,
+				1155F65C25C3E63200270E9E /* Metal-Shading-Language-Specification.pdf in Resources */,
 				1155F62925C3AD1E00270E9E /* Assets.xcassets in Resources */,
-				1155F62725C3AD1D00270E9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +364,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1155F68025C3E7A300270E9E /* Time.m in Sources */,
+				1155F65F25C3E65900270E9E /* Essentials.m in Sources */,
+				1155F67A25C3E74D00270E9E /* ObjectSizingAndPositioning.m in Sources */,
+				1155F68325C3E7B000270E9E /* Tools.m in Sources */,
+				1155F67125C3E6F500270E9E /* Presentation.m in Sources */,
+				1155F66525C3E69600270E9E /* CommandSetup.m in Sources */,
+				1155F68525C3E9AE00270E9E /* File.metal in Sources */,
 				1155F62425C3AD1D00270E9E /* ViewController.m in Sources */,
 				1155F61E25C3AD1D00270E9E /* AppDelegate.m in Sources */,
+				1155F67425C3E70300270E9E /* Shaders.m in Sources */,
+				1155F66E25C3E6D500270E9E /* Rendering.m in Sources */,
+				1155F67725C3E71600270E9E /* Resources.m in Sources */,
+				1155F65625C3BCD400270E9E /* ARExperienceController.m in Sources */,
+				1155F65A25C3D6D100270E9E /* MetalViewController.m in Sources */,
 				1155F62F25C3AD1E00270E9E /* main.m in Sources */,
-				1155F62125C3AD1D00270E9E /* SceneDelegate.m in Sources */,
+				1155F66825C3E6AF00270E9E /* ParallelComputation.m in Sources */,
+				1155F66225C3E67300270E9E /* GPUs.m in Sources */,
+				1155F67D25C3E79200270E9E /* PackedVectorsAndMatrices.m in Sources */,
+				1155F66B25C3E6BD00270E9E /* RayTracing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +418,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1155F62525C3AD1D00270E9E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1155F62625C3AD1D00270E9E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1155F62A25C3AD1E00270E9E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HU7J6PUQSE;
 				INFOPLIST_FILE = FaceCamera/Info.plist;
@@ -448,6 +553,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tigerfly.FaceCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -456,6 +562,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HU7J6PUQSE;
 				INFOPLIST_FILE = FaceCamera/Info.plist;
@@ -465,6 +572,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tigerfly.FaceCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
