@@ -32,6 +32,13 @@
 		1155F68325C3E7B000270E9E /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1155F68225C3E7B000270E9E /* Tools.m */; };
 		1155F68525C3E9AE00270E9E /* File.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1155F68425C3E9AE00270E9E /* File.metal */; };
 		1155F68725C4040E00270E9E /* 9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1155F68625C4040E00270E9E /* 9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png */; };
+		115EDC9325C4F1DA00BDECBE /* Metal-Feature-Set-Tables.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 115EDC9225C4F1DA00BDECBE /* Metal-Feature-Set-Tables.pdf */; };
+		115EDC9525C5227300BDECBE /* 6411df7f-4f5c-46d6-9573-c2c6dd10fffb.png in Resources */ = {isa = PBXBuildFile; fileRef = 115EDC9425C5227300BDECBE /* 6411df7f-4f5c-46d6-9573-c2c6dd10fffb.png */; };
+		115EDC9725C5230300BDECBE /* 27dc137c-d852-461e-aff2-e93ab71f44e9.png in Resources */ = {isa = PBXBuildFile; fileRef = 115EDC9625C5230300BDECBE /* 27dc137c-d852-461e-aff2-e93ab71f44e9.png */; };
+		115EDC9925C523BC00BDECBE /* 9e68fba0-6dd4-4bc6-92a9-da1646f742d4.png in Resources */ = {isa = PBXBuildFile; fileRef = 115EDC9825C523BC00BDECBE /* 9e68fba0-6dd4-4bc6-92a9-da1646f742d4.png */; };
+		115EDC9B25C5250D00BDECBE /* 5b88782f-d94e-45a2-833c-c8570dbb7b84.png in Resources */ = {isa = PBXBuildFile; fileRef = 115EDC9A25C5250D00BDECBE /* 5b88782f-d94e-45a2-833c-c8570dbb7b84.png */; };
+		115EDC9D25C5254500BDECBE /* cef5cd2d-1e3a-4fd8-b114-2ee84324d157.png in Resources */ = {isa = PBXBuildFile; fileRef = 115EDC9C25C5254500BDECBE /* cef5cd2d-1e3a-4fd8-b114-2ee84324d157.png */; };
+		115EDC9F25C52BFA00BDECBE /* 截屏2021-01-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 115EDC9E25C52BFA00BDECBE /* 截屏2021-01-30.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +109,13 @@
 		1155F68225C3E7B000270E9E /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		1155F68425C3E9AE00270E9E /* File.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = File.metal; sourceTree = "<group>"; };
 		1155F68625C4040E00270E9E /* 9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png"; sourceTree = "<group>"; };
+		115EDC9225C4F1DA00BDECBE /* Metal-Feature-Set-Tables.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Metal-Feature-Set-Tables.pdf"; sourceTree = "<group>"; };
+		115EDC9425C5227300BDECBE /* 6411df7f-4f5c-46d6-9573-c2c6dd10fffb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6411df7f-4f5c-46d6-9573-c2c6dd10fffb.png"; sourceTree = "<group>"; };
+		115EDC9625C5230300BDECBE /* 27dc137c-d852-461e-aff2-e93ab71f44e9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "27dc137c-d852-461e-aff2-e93ab71f44e9.png"; sourceTree = "<group>"; };
+		115EDC9825C523BC00BDECBE /* 9e68fba0-6dd4-4bc6-92a9-da1646f742d4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9e68fba0-6dd4-4bc6-92a9-da1646f742d4.png"; sourceTree = "<group>"; };
+		115EDC9A25C5250D00BDECBE /* 5b88782f-d94e-45a2-833c-c8570dbb7b84.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5b88782f-d94e-45a2-833c-c8570dbb7b84.png"; sourceTree = "<group>"; };
+		115EDC9C25C5254500BDECBE /* cef5cd2d-1e3a-4fd8-b114-2ee84324d157.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cef5cd2d-1e3a-4fd8-b114-2ee84324d157.png"; sourceTree = "<group>"; };
+		115EDC9E25C52BFA00BDECBE /* 截屏2021-01-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "截屏2021-01-30.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +179,7 @@
 				1155F65125C3AEE400270E9E /* PrefixHeader.pch */,
 				1155F65225C3AF1D00270E9E /* BasicMacro.h */,
 				1155F65B25C3E63200270E9E /* Metal-Shading-Language-Specification.pdf */,
+				115EDC9225C4F1DA00BDECBE /* Metal-Feature-Set-Tables.pdf */,
 			);
 			path = FaceCamera;
 			sourceTree = "<group>";
@@ -229,6 +244,12 @@
 				1155F68125C3E7B000270E9E /* Tools.h */,
 				1155F68225C3E7B000270E9E /* Tools.m */,
 				1155F68625C4040E00270E9E /* 9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png */,
+				115EDC9425C5227300BDECBE /* 6411df7f-4f5c-46d6-9573-c2c6dd10fffb.png */,
+				115EDC9625C5230300BDECBE /* 27dc137c-d852-461e-aff2-e93ab71f44e9.png */,
+				115EDC9825C523BC00BDECBE /* 9e68fba0-6dd4-4bc6-92a9-da1646f742d4.png */,
+				115EDC9A25C5250D00BDECBE /* 5b88782f-d94e-45a2-833c-c8570dbb7b84.png */,
+				115EDC9C25C5254500BDECBE /* cef5cd2d-1e3a-4fd8-b114-2ee84324d157.png */,
+				115EDC9E25C52BFA00BDECBE /* 截屏2021-01-30.png */,
 			);
 			path = Metal;
 			sourceTree = "<group>";
@@ -337,9 +358,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1155F68725C4040E00270E9E /* 9e65eb88-9081-40fc-b2e4-4c72877bfcd4.png in Resources */,
+				115EDC9D25C5254500BDECBE /* cef5cd2d-1e3a-4fd8-b114-2ee84324d157.png in Resources */,
+				115EDC9325C4F1DA00BDECBE /* Metal-Feature-Set-Tables.pdf in Resources */,
+				115EDC9B25C5250D00BDECBE /* 5b88782f-d94e-45a2-833c-c8570dbb7b84.png in Resources */,
 				1155F62C25C3AD1E00270E9E /* LaunchScreen.storyboard in Resources */,
+				115EDC9925C523BC00BDECBE /* 9e68fba0-6dd4-4bc6-92a9-da1646f742d4.png in Resources */,
 				1155F65C25C3E63200270E9E /* Metal-Shading-Language-Specification.pdf in Resources */,
+				115EDC9725C5230300BDECBE /* 27dc137c-d852-461e-aff2-e93ab71f44e9.png in Resources */,
 				1155F62925C3AD1E00270E9E /* Assets.xcassets in Resources */,
+				115EDC9525C5227300BDECBE /* 6411df7f-4f5c-46d6-9573-c2c6dd10fffb.png in Resources */,
+				115EDC9F25C52BFA00BDECBE /* 截屏2021-01-30.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
